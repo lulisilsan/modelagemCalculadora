@@ -20,19 +20,16 @@ class Estabelecimento {
         self.dvAtivo = dvAtivo
     }
     func novoEstabelecimento(){
-        
+        // implementar função
     }
     func desativar(){
-        
+          // implementar função
     }
     func atualizarEstabelecimento(){
-        
-    }
-    func excluirEstabelecimento(){
-        
+          // implementar função
     }
     func alterarSenha(){
-        
+          // implementar função
     }
     
 }
@@ -59,10 +56,10 @@ class Supermercado: Estabelecimento {
         super.init(nome: nome, endereco: endereco, cnpj: cnpj, telefone: telefone, login: login, senha: senha, dvAtivo: dvAtivo)
     }
     func adicionarProduto(){
-        
+          // implementar função
     }
     func alterarValorProduto(){
-        
+          // implementar função
     }
     
 }
@@ -87,10 +84,10 @@ class Restaurante: Estabelecimento{
         super.init(nome: nome, endereco: endereco, cnpj: cnpj, telefone: telefone, login: login, senha: senha, dvAtivo: dvAtivo)
     }
     func adicionarItemCardapio(){
-        
+          // implementar função
     }
     func alterarValorItem(){
-        
+          // implementar função
     }
 }
 
